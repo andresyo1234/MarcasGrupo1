@@ -1,0 +1,17 @@
+.subtitulo {
+    text-align: left;
+    /* width: 300px; */
+    /* padding: 25px; */
+    /* margin: 30px; */
+    font-size: 20px;
+    /* float: left; */
+}
+
+.texto {
+    text-align: left;
+    font-size: 15px;
+}
+
+.boton {
+    
+}
