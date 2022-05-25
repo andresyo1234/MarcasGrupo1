@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+}
+
+.seleccionar{
+    text-align: left;
+}
+
+.fotoderecha{
+    position: relative;
+    bottom: 1600px;
+ float: right;
+    width: 10px;
+    height: 10px;
+    margin: 20px;
+    
+}
+
+.LadoDerecho{
+    margin: 20px;
+    float: right;
+    text-align: center;
+}
+
+
+
