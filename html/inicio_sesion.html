@@ -8,42 +8,44 @@
 </head>
 
 <body>
-    <form>
+    <div class="form"><form>
         <fieldset>
-            <legend></legend>
+            <a href="crear_usuario.html">
+                <button class="entrar_google" name="button" ><img class="logo_google" src="../img/logoGoogle.png" alt="GOOGLE"><p class="texto_google">ENTRAR CON GOOGLE</p></button>
+            </a>
             <hr>
-            <div class="subtitulo"><label>Iniciar Sesión</label></div>
+            <div><label>Iniciar Sesión</label></div>
             <hr>
             
-            <br>
+            
             <div class="texto"><label>Nombre de usuario:</label></div>
             <br>
             <input type="text" placeholder="Escriba aquí..." name="nombreusuario">
-            <br>
+            
             <div class="texto"><label>Contraseña:</label></div>
             <br>
-            <input type="text" placeholder="Escriba aquí..." name="contraseña">
+            <input type="password" placeholder="Escriba aquí..." name="contraseña">
             <br>
 
-            <a href="https://www.facebook.com/">
-                <input type="button" value="INICIAR SESIÓN">
+            <a href="crear_usuario.html">
+                <button name="button"><a class="texto_boton" href="crear_usuario.html">INICIAR SESIÓN</a></button>
             </a>
             <br>
-            <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0">He
-                olvidado mi contraseña</a>
+            <div class="hiperenlace"><a href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0">He
+                olvidado mi contraseña</a></div>
 
 
             <br>
             <hr>
-            <div class="texto"><label>¿Eres nuevo en Vice Hardare?</label></div>
+            <div class="texto eres_nuevo"><label>¿Eres nuevo en Vice Hardare?</label></div>
             <br>
-            <a href="crear_usuario.html">
-                <input type="button" value="CREAR CUENTA">
-            </a>
+            
+                <button class="crear_usuario" name="button" ><a class="texto_boton" href="crear_usuario.html">CREAR CUENTA</a></button>
+            
 
             <br>
         </fieldset>
-    </form>
+    </form></div>
 </body>
 
 </html>

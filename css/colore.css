@@ -1,3 +1,32 @@
+body {
+    background-color: rgb(208, 208, 208);
+}
+
+.form {
+    border-radius: 10px;
+    margin: 100px auto 10px;
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+fieldset {
+    border-radius: 10px;
+    border: 1px solid rgb(208, 208, 208);
+    box-shadow: 0px 0px 8px rgb(157, 77, 255), 0px 0px 14px rgb(157, 77, 255);
+    background-color: rgb(208, 208, 208);
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+hr {
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 8px rgb(157, 77, 255), 0px 0px 14px rgb(157, 77, 255);
+}
+
 .subtitulo {
     text-align: left;
     /* width: 300px; */
@@ -7,11 +36,88 @@
     /* float: left; */
 }
 
-.texto {
-    text-align: left;
-    font-size: 15px;
+.hiperenlace {
+    margin-top: 4%;
+    margin-bottom: 1%;
+}
+
+label {
+    display: block;
+    margin-top: 8%;
+    margin-bottom: auto;
+    margin-left: 1%;
+    color: rgb(29, 38, 155);
+    font-size: 14px;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+input {
+    outline: none;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border: 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    color: gray;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: semibold;
+    line-height: inherit;
+    transition: 0.3s ease;
+}
+
+
+
+.texto_boton {
+    color: white;
+    text-decoration:none;
+}
+
+.texto_google {
+    margin-bottom: 5%;
+    margin-left: 0%;
+}
+
+.logo_google {
+    width: 40px;
+    height: auto;
+
+}
+
+.entrar_google {
+    margin-left: 22%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+button {
+    border: 0;
+    border-radius: 10px;
+    padding: 12px 20px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: rgb(157, 77, 255);
+    box-shadow: 0px 0px 8px rgb(157, 77, 255), 0px 0px 14px rgb(157, 77, 255);
+}
+
+.crear_usuario {
+    margin-left: 30%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+}
+
+.eres_nuevo {
+    margin-left: 7%;
+    margin-right: auto;
+    margin-top: 10%;
 }
 
 .boton {
-    
+    width: 200px;
+    height: 200px;
 }
