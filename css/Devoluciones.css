@@ -31,14 +31,18 @@ h3{
 p{
     padding-top: 20px;
     text-align: center;
+    font-size: small;
 }
 li{
     text-align: center;
+    font-size: small;
+
 }
 
 #formulario{
 
     text-align: center;
+    
     padding-left: 500px;
     padding-right: 500px;
 }
@@ -54,3 +58,30 @@ input{
     
     
 }
+input[type=button], input[type=submit] {
+    
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 8px;
+    width: 120px;
+    
+}
+input[type=button], input[type=reset] {
+    
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 8px;
+    width: 120px;
+    
+}
+
