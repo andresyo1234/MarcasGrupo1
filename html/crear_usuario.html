@@ -37,7 +37,7 @@
 
 
 
-                <div class="captcha">
+                <!-- <div class="captcha">
 
                     <div id="captchaBackground">
                         <p>CAPTCHA</p>
@@ -57,15 +57,45 @@
       
                     </div>
       
+                </div> -->
+
+
+
+
+                <div class="center">
+
+                    <div id="captchaBackground">
+      
+                        <div class="Letras">
+      
+                        <canvas id="captcha">captcha text</canvas>
+      
+                        <input class="captcha_text" placeholder="Captcha..." id="textBox" type="text" name="text">
+      
+                        </div>
+      
+                        <div id="buttons">
+      
+                            <input class="enviar" id="submitButton" type="submit">
+      
+                            <button id="refreshButton" type="submit">Refresh</button>
+      
+                        </div>
+      
+                        <span id="output"></span>
+      
+                    </div>
+      
                 </div>
+      
+                <script src="../Js/Captcha.js"></script>
       
 
 
 
-                <script src="../Js/Captcha.js"></script>
                 
                 <p>
-                    <input type="checkbox" name="EEntrada" value="USB">He leído y acepto la <a href="https://es-es.facebook.com/about/privacy/update" target="_blank">politica de privacidad</a>
+                    <input class="politica" type="checkbox" name="EEntrada" value="USB">He leído y acepto la <a href="https://es-es.facebook.com/about/privacy/update" target="_blank">politica de privacidad</a>
                 </p>
 
                 <p>

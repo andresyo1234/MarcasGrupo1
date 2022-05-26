@@ -3,7 +3,7 @@
 var captchaText = document.getElementById("captcha");
 var ctx = captchaText.getContext("2d");
 captchaText.width= 200;
-captchaText.height= 125;
+captchaText.height= 150;
 ctx.fillStyle = "#000000"
 ctx.font =  '30px san-serif'
 
@@ -24,7 +24,7 @@ for (let i = 1; i <= 7; i++) {
 }
 var c = String;
 
-ctx.fillText(c, (captchaText.width/2)-(ctx.measureText(c).width/2)  , captchaText.height/2);
+ctx.fillText(c, (captchaText.width/2)-(ctx.measureText(c).width/2)  , 80);
 
 
 // This event listener is stimulated whenever the user press the "Enter" button
@@ -60,11 +60,12 @@ submitButton.addEventListener('click', function() {
 // A new random CAPTCHA is generated and displayed after the user clicks the "Refresh" button
 refreshButton.addEventListener('click', function() {
     userText.value = "";
-    let refreshArr = [];
+    let String = "";
     for (let j = 1; j <= 7; j++) {
-        refreshArr.push(alphaNums[Math.floor(Math.random() * alphaNums.length)]);
+        String=String+alphaNums[Math.floor(Math.random() * alphaNums.length)];
     }
-    c = refreshArr.join('');    
+    c = String; 
+    ctx.clearRect(0,0,captchaText.width, captchaText.height);
     ctx.fillText(c, (captchaText.width/2)-(ctx.measureText(c).width/2)  , captchaText.height/2);
     output.innerHTML = "";
 });
