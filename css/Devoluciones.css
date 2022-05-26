@@ -1,0 +1,56 @@
+#Cuadro1{
+
+    border: 2px solid black;
+    clear: both;
+    height: auto;
+}
+
+#Carrito{
+    padding-left: 1660px;
+    padding-right: 5px;
+}
+
+#Inicio{
+
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+
+#Registrate{
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+
+h3{
+    padding-top: 40px;
+    text-align: center;
+}
+
+p{
+    padding-top: 20px;
+    text-align: center;
+}
+li{
+    text-align: center;
+}
+
+#formulario{
+
+    text-align: center;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+input{
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#PlaceHolder{
+
+    padding-top: 1%;
+    padding-bottom: 5%;
+    
+    
+}
