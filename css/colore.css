@@ -1,5 +1,6 @@
 body {
-    background-color: rgba(158, 26, 211, 0.938);
+    background-image: url(../img/fondoCiudad.jpg);
+    background-size: contain;
 }
 
 .form {
