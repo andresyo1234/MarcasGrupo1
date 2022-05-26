@@ -1,34 +1,48 @@
 h1{
+    margin-top: 5%;
     text-align: center;
 }
 
-.seleccionar{
-    text-align: center;
+.Seleccionar{
+   
+    margin-left: 25%;
+    text-align: left;
+    float: left;
 }
 
-.fotoderecha{
+.foto{
 
-    
-    
+float: right;
+margin-right: 13%;
+}
+
+#fotoderecha{
+
+    height: 390px;
+    width: 200px;
+   
 }
 
 .LadoDerecho{
-    margin: 20px;
+    margin-right: 12%;
+    margin-top: 4%;
     float: right;
     text-align: center;
 }
 
 .foto-izq{
     
-    margin: 20px; 
-    float: left;
-    width: 1000px;
-    height: 2000px;
+    
    
 
 }
 
 
+.componentes{
+    width: 900px;
+}
 
-
+.container-principal{
+     /*hacer fondo*/
+}
 
