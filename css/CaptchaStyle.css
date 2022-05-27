@@ -203,6 +203,7 @@ hr{
     height: 150px;
     width: 400px;
     background-color:   #F27DFD;
+    box-shadow: #08e5ff   1px 1px 10px ;
     margin-top:20px;  
     color:black
 }
@@ -245,13 +246,16 @@ hr{
   margin-top: 60px;
   margin-right: 25px;
   height: 20px;
+  box-shadow: #0bd3d3  1px 1px 10px ;
 }
 #selected{
     margin-top: 20px;
+    box-shadow: #0bd3d3  1px 1px 10px ;
 }
 #email{
     width: 300px;   
     height: 20px;
+    box-shadow: #0bd3d3  1px 1px 10px ;
 }
 
 .incorrectCaptcha {
