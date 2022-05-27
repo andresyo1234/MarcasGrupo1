@@ -136,6 +136,7 @@ nav a:hover{
     background-color: #333;
     box-shadow: #0bd3d3 0px 0px 200px ;
     margin-top: auto;
+    opacity: 90%;
 }
 .footer .grupo1{
     width: 100%;
