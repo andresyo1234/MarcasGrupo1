@@ -3,97 +3,210 @@
     <head> 
 
         <link rel="stylesheet" type="text/css" href="../css/CaptchaStyle.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    
+    <!---------------------  para la barra de busqueda ----------------->
+    <script src="https://kit.fontawesome.com/712575d4a5.js" crossorigin="anonymous"></script>
 
     </head>
     <body>
 
+        <header>
+            <div class="logo">
+                <a href="../html/pagInicio.html"><img src="../img/viceHardwareLogo.png" height="80px" alt="logo"></a>
+                <div class=" logo slogan">
+                    <h1>Tu tienda y cada día la de más gente</h1>
+                </div>
+            </div>
+            <nav>
+                <a href="" class="nav-link">Carrito</a>
+                <a href="" class="nav-link">Inicia sesión</a>
+                <a href="" class="nav-link">Registrate</a>
+            </nav>
+            <div class="buscar">
+                <input type="text" placeholder="Buscar.." required >
+                <div class="btn">
+                    <i class="fas fa-search icon"></i>
+                </div>
+            </div>
+        </header>
+    
+        <header class="subheader">
+            <nav class=" subnav">
+                <a href="" class="catg">Categorias</a>
+                <a href="" class="pc">Pc a tu gusto</a>
+                <a href="" class="atc">Atencion al Cliente</a>
+            </nav>
+        </header>
+        
 
 
 
 
 
-        <hr/>
-        <div id="Especialidad">
-            <h2>¿Cual es tu Especialidad?</h2>
-            <select name="ingrediente" id="ingrediente" size="10">
-                <optgroup label="Administración YF">
-                   <option value="CFO">CFO</option>
-                   <option value="Practicas">Practicas</option>
-                   <option value="Responsable Administración">Responsable Administración</option>
-                   <option value="Responsable Auditoria y concienciación">Responsable Auditoria y concienciación</option>
-                   <option value="Responsable controlling fiscal">Responsable controlling fiscal</option>
-                   <option value="Responsable Gestion contavilización">Responsable Gestion contavilización</option>
-                   <option value="Tecnico Auditoria y concienciación">Tecnico Auditoria y concienciación</option>
-                   <option value="Tecnico Contratar SII">Tecnico Contratar SII</option>
-                </optgroup>
-                <optgroup label="Business Intelligence and data Analytics">
-                    <option value="Data Analytics">Data Analytics</option>
-                    <option value="Business Intelligence">Business Intelligence</option>
-                </optgroup>
-                <optgroup label="Atencion al Clinete">
-                   <option value="Agente de Atencion al Clinete">Agente de Atencion al Clinete</option>
-                   <option value="Asistencia remota Manager">Asistencia remota Manager</option>
-                   <option value="Atencion al cliente manager">Atencion al cliente manager</option>
-                   <option value="Knowledge">Knowledge</option>
-                   <option value="Quality">Quality</option>
-                </optgroup>
-                <optgroup label="Recursos Humanos">
-                    <option value="CHRO">CHRO</option>
-                    <option value="Contol de accesos">Contol de accesos</option>
+
+
+
+        <div class=" tronco">
+            <div id="Especialidad">
+                <h2>¿Cual es tu Especialidad?</h2>
+                <select id = "selected"size="9">
+                    <optgroup label="Administración YF">
+                    <option value="CFO">CFO</option>
                     <option value="Practicas">Practicas</option>
-                    <option value="PRL y Medioanviente">PRL y Medioanviente</option>
-                    <option value="otros">otros</option>
-                 </optgroup>
-                 <optgroup label="Taller Montaje">
-                    <option value="Coordinador de calidad">Coordinador de calidad</option>
-                    <option value="Cordinador de personal">Cordinador de personal</option>
-                    <option value="Coordinador de Producto">Coordinador de Producto</option>
-                    <option value="Manajer Personal">Manajer Personal</option>
-                    <option value="Manajer Produccion">Manajer Produccion</option>
-                    <option value="Tecnico Montaje de Equipos">Tecnico Montaje de Equipos</option>
-                 </optgroup>
-                 <optgroup label="Teccnología">
-                    <option value="Backend Software Enginner">Backend Software Enginner</option>
-                    <option value="Frontend Software Enginner">Frontend Software Enginner</option>
-                    <option value="Product Manager">Product Manager</option>
-                    <option value="Team Leader">Team Leader</option>
-                 </optgroup>
-                 <optgroup label="Logística y almacén">
-                    <option value="Administrativo Logística">Administrativo Logística</option>
-                    <option value="Administrativo Trafico">Administrativo Trafico</option>
-                    <option value="Atencion al Clinete Trafico">Atencion al Clinete Trafico</option>
-                    <option value="Coordinador de almacén">Coordinador de almacén</option>
-                    <option value="Coordinador Entradas">Coordinador Entradas</option>
-                    <option value="Coordinador incidencias Trafico">Coordinador incidencias Trafico</option>
-                    <option value="Coordinador Salidas">Coordinador Salidas</option>
-                    <option value="Coordinador Trafico">Coordinador Trafico</option>
-                    <option value="Jefe Turno">Jefe Turno</option>
-                    <option value="Mozo de Almacén">Mozo de Almacén</option>
-                    <option value="Responsable de Mejora Continua">Responsable de Mejora Continua</option>
-                    <option value="Responsable de Trafico Internacional">Responsable de Trafico Internacional</option>
-                    <option value="Responsable Logística y Almacén">Responsable Logística y Almacén</option>
-                </optgroup>
-              </select>
+                    <option value="Responsable Administración">Responsable Administración</option>
+                    <option value="Responsable Auditoria y concienciación">Responsable Auditoria y concienciación</option>
+                    <option value="Responsable controlling fiscal">Responsable controlling fiscal</option>
+                    <option value="Responsable Gestion contavilización">Responsable Gestion contavilización</option>
+                    <option value="Tecnico Auditoria y concienciación">Tecnico Auditoria y concienciación</option>
+                    <option value="Tecnico Contratar SII">Tecnico Contratar SII</option>
+                    </optgroup>
+                    <optgroup label="Business Intelligence and data Analytics">
+                        <option value="Data Analytics">Data Analytics</option>
+                        <option value="Business Intelligence">Business Intelligence</option>
+                    </optgroup>
+                    <optgroup label="Atencion al Clinete">
+                    <option value="Agente de Atencion al Clinete">Agente de Atencion al Clinete</option>
+                    <option value="Asistencia remota Manager">Asistencia remota Manager</option>
+                    <option value="Atencion al cliente manager">Atencion al cliente manager</option>
+                    <option value="Knowledge">Knowledge</option>
+                    <option value="Quality">Quality</option>
+                    </optgroup>
+                    <optgroup label="Recursos Humanos">
+                        <option value="CHRO">CHRO</option>
+                        <option value="Contol de accesos">Contol de accesos</option>
+                        <option value="Practicas">Practicas</option>
+                        <option value="PRL y Medioanviente">PRL y Medioanviente</option>
+                        <option value="otros">otros</option>
+                    </optgroup>
+                    <optgroup label="Taller Montaje">
+                        <option value="Coordinador de calidad">Coordinador de calidad</option>
+                        <option value="Cordinador de personal">Cordinador de personal</option>
+                        <option value="Coordinador de Producto">Coordinador de Producto</option>
+                        <option value="Manajer Personal">Manajer Personal</option>
+                        <option value="Manajer Produccion">Manajer Produccion</option>
+                        <option value="Tecnico Montaje de Equipos">Tecnico Montaje de Equipos</option>
+                    </optgroup>
+                    <optgroup label="Teccnología">
+                        <option value="Backend Software Enginner">Backend Software Enginner</option>
+                        <option value="Frontend Software Enginner">Frontend Software Enginner</option>
+                        <option value="Product Manager">Product Manager</option>
+                        <option value="Team Leader">Team Leader</option>
+                    </optgroup>
+                    <optgroup label="Logística y almacén">
+                        <option value="Administrativo Logística">Administrativo Logística</option>
+                        <option value="Administrativo Trafico">Administrativo Trafico</option>
+                        <option value="Atencion al Clinete Trafico">Atencion al Clinete Trafico</option>
+                        <option value="Coordinador de almacén">Coordinador de almacén</option>
+                        <option value="Coordinador Entradas">Coordinador Entradas</option>
+                        <option value="Coordinador incidencias Trafico">Coordinador incidencias Trafico</option>
+                        <option value="Coordinador Salidas">Coordinador Salidas</option>
+                        <option value="Coordinador Trafico">Coordinador Trafico</option>
+                        <option value="Jefe Turno">Jefe Turno</option>
+                        <option value="Mozo de Almacén">Mozo de Almacén</option>
+                        <option value="Responsable de Mejora Continua">Responsable de Mejora Continua</option>
+                        <option value="Responsable de Trafico Internacional">Responsable de Trafico Internacional</option>
+                        <option value="Responsable Logística y Almacén">Responsable Logística y Almacén</option>
+                    </optgroup>
+                </select>
 
+
+            </div>
+            <div class ="center">
+                <form >
+                <h2>Inserte el email de contacto:</h2>            
+                <input type="email" id="email" placeholder="Inserte el email" required>
+                <div id="captchaBackground">
+                    <div class="Letras">
+                        <canvas id="captcha">captcha text</canvas>
+                        <input id="textBox" type="text" name="text" required>
+                    </div>
+                    <div id="buttons">
+                        <input id="submitButton" type="submit" >
+                        <button id="refreshButton" type="submit">Refresh</button>
+                    </div>
+                    <span id="output"></span>
+                </div>
+                <script src="../Js/Captcha.js"></script>
+            </form>
+            </div>
 
         </div>
-        <div>
-            <p>Inserte el email de contacto:</p>            
-            <input type="email" id="email" placeholder="Inserte el email" required>
-            <div class="center">
-              <div id="captchaBackground">
-                  <div class="Letras">
-                  <canvas id="captcha">captcha text</canvas>
-                  <input id="textBox" type="text" name="text">
-                  </div>
-                  <div id="buttons">
-                      <input id="submitButton" type="submit">
-                      <button id="refreshButton" type="submit">Refresh</button>
-                  </div>
-                  <span id="output"></span>
-              </div>
-          </div>
-          <script src="../Js/Captcha.js"></script>
+
+
+
+        
+
+
+
+
+        <footer class="footer">
+            <div class="grupo1">
+                <div class="box">
+                    <figure>
+                     <a href="../html/pagInicio.html"><img src="../img/viceHardwareLogo.png" height="50px" width="200px" alt="logo"></a>
+                    </figure>
+                    <p>Calle Falsa Nº 123</p>
+                    <p>768 - 394 - 984</p>             
+                 </div>
+                 <div class="box">               
+                     <div class="red-social">
+                         <ul>
+                             <h5>SÍGUENOS</h5>
+                             <il><a href="#">Facebook</a></il>
+                             <il><a href="https://www.instagram.com/bernat13/">Instagram</a></il>
+                             <il><a href="https://twitter.com/jcresporuiz93">Twitter</a></il>
+                             <il><a href="https://www.youtube.com/watch?v=mCdA4bJAGGk&ab_channel=sweetblue.">Youtube</a></il>
+                         </ul>
+                     </div>
+                 </div>
+                 <div class="box">
+                    <ul>
+                     <h5>INFORMATE</h5>
+                     <il><a href="">Quienes somos</a></il>
+                     <il><a href="">Trabaja con nosotros</a></il>
+                     <il><a href="">Atencion al CLiente</a></il>
+                    </ul>
+                </div>
+                <div class="box">               
+                     <div class="legal">
+                         <ul>
+                             <h5>LEGALIDAD</h5>
+                             <il><a href="">Politica de Privacidad</a></il>
+                             <il><a href="">Coockies</a></il>
+                             <il><a href="">Terminos & Condiciones</a></il>
+                         </ul>
+                     </div>
+                </div>
+                <div class="box">            
+                     <div class="jesus">
+                         <ul>
+                             <h5>PARA JESÚS</h5>
+                             <il><a href="">RSS</a></il>
+                             <il><a href="">XSLT</a></il>
+                             <il><a href="">ERP / CRM</a></il>
+                         </ul>
+                     </div>
+                 </div>
+            </div>
+            <div class="grupo2">
+                <hr>
+                <small>&copy;2022 <b>Vice Hardware</b> - Todos los derechos reservados</small>
+            </div>
+         </footer>
+
+
+
+
+
+
+
+
+
+
 
 
     </body>
