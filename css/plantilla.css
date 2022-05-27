@@ -23,8 +23,8 @@ body{
 
 /*** CSS de la cabecera ***/
 header{
-    border-top: 1px solid #0bd3d3;
-    border-bottom: 1px solid #0bd3d3;
+    
+    box-shadow: #0bd3d3 0px 3px 0px ;
     display: flex;
     min-height: 70px;
     justify-content: space-between;
@@ -37,26 +37,31 @@ header{
     align-items: center;
     padding-left: 150px;
 }
+@font-face{
+    font-family: "PriceDown";
+    src: url(../font/pricedown\ bl.otf);
+
+}
 .slogan{
-    padding-left: 200px;
+    font-family: "PriceDown";
+    padding-left: 120px;
     color: #fffe9f;
-    text-shadow: #F27DFD 1px 1px 1px;
+    text-shadow: black 1px 2px 1px;
 }
 nav{
     padding-right: 100px;
 }
 nav a{
-    font-weight: 600;
     padding-right: 50px;
     transition: all 0.4s linear;
     border-radius:3px;
     text-decoration: none;
     color:white;
-    text-shadow: #F27DFD 1px 1px 1px;
+    text-shadow: #F27DFD 1px 2px 1px;
 }
 nav a:hover{
     color: #0bd3d3;
-    text-shadow: #F27DFD 1px 1px 1px;
+    text-shadow: #F27DFD 1px 2px 1px;
 }
 
 /*** CSS del buscador ***/
@@ -72,7 +77,7 @@ nav a:hover{
     width: 0px;
     height: 40px;
     padding: 0 20px;
-    font-size: 18px;
+    font-size: 15px;
     color: black;
     outline: none;
     border: 1px solid silver;
@@ -94,15 +99,15 @@ nav a:hover{
     cursor: pointer; 
 }
 .buscar:hover input{
-    width: 240px;
+    width: 140px;
 }
 .buscar input:focus{
-    width: 240px;
+    width: 140px;
 }
 
 /*** CSS de la subcabecera ***/
 .subheader{
-    margin-top: 5px;
+    margin-top: 7px;
     height: 10px;
 }
 .subnav{
@@ -147,8 +152,9 @@ nav a:hover{
     display: block;  
 }
 .footer .grupo1 .box h5{
+    font-family: "PriceDown";
     color: #fffe9f;
-    text-shadow: #F27DFD 1px 1px 1px;
+    text-shadow: black 1px 2px 1px;
     font-size: 20px;
   
 }
