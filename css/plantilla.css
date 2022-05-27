@@ -14,12 +14,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
-.tronco{
-    background-color: white;
-    opacity: 70%;
-    width: 60%;
-    align-self: center;   
-}
+
 
 /*** CSS de la cabecera ***/
 header{

@@ -1,5 +1,5 @@
 .especificaciones{
-    margin-left:23%;
+    margin-left:55%;
     text-align: center;
     font-family: 'Anton', sans-serif;
 }
@@ -12,7 +12,10 @@
 
 .fotoGrande{
     
-    margin-left: 23%;
+    float: left;
+    margin-left: 70px;
+    margin-top: 10px;
+   
   
 }
 
@@ -37,15 +40,13 @@
 .detalles{
     display: inline-block;
     float: right;
-    margin-right: 25%;
+    margin-right: 5%;
     font-family: 'Roboto', sans-serif;
 }
 
 .carrito{
     
-    margin-left: 1100px;
-    
-    
+    margin-left: 630px;
 }
 
 #icono{
@@ -57,7 +58,8 @@
 }
 
 .fotopequeña{
-    margin-left: 13%;
+    float: left;
+    margin-left: 9%;
 }
 
 #imagenpequena{
@@ -69,7 +71,7 @@
 
 .comentarios{
     float: right;
-    margin-right: 30%;
+    margin-right:5%;
     
     
 }
@@ -82,7 +84,7 @@
 }
 
 .ProdRelac{
-    margin-left: 14%;
+    margin-left: 7%;
     font-family: 'Anton', sans-serif;
 }
 
@@ -111,5 +113,23 @@
     
 }
 
+.tronco{
+    background-color: white;
+    width: 60%;
+    align-self: center;   
+}
 
+#imagenpequena1{
+    height: 100px;
+    width: 100px;
+    margin-right:80%;
+    margin-top: -8%;
+}
+
+#imagenpequena2{
+    height: 100px;
+    width: 100px;
+    margin-right:120%;
+    margin-top: -8%;
+}
 
