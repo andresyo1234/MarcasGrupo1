@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* NO TOCAR NADA, se puede joder la cabecera y el footer */
+
 
 body{
     font-family: 'Bebas Neue', cursive;
@@ -16,9 +17,9 @@ body{
 .tronco{
     background-color: white;
     opacity: 70%;
-    width: 60%;
-    align-self: center;
-    margin-top: 40px;
+    width: 999px;
+    align-items: center;
+    align-self: center;   
 }
 
 /*** CSS de la cabecera ***/
@@ -136,7 +137,7 @@ nav a:hover{
     background-color: #333;
     box-shadow: #0bd3d3 0px 0px 200px ;
     margin-top: auto;
-    opacity: 90%    ;
+    opacity: 90%;
 }
 .footer .grupo1{
     width: 100%;
@@ -195,81 +196,53 @@ hr{
 }
 
 
-/**tronco**/
+#video1{
+    position: relative;
 
 
-H2{
-    color: black ;
-    text-shadow: #0bd3d3 1px 2px 1px;
+
+    z-index: -1;
 }
 
-
-#captchaBackground {
-
-    height: 150px;
-    width: 400px;
-    background-image: linear-gradient(to bottom right, #F27DFD, #08e5ff);   
-    box-shadow: #08e5ff   1px 1px 10px ;    
-    margin-top:20px;  
-    color:black
+#play{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 200px;
+    max-width: 80px;
+    max-height: 80px;
+    z-index: 1;
 }
-
-
-.Letras{
-    display: flex;
-    align-items: start;
-    justify-content: space-evenly;
-
-}
-
-.center {
-    float: right;
-    align-items: center;
-    
-    margin-right: 100px;
-}
-
-#submitButton {
-    margin-top: 1em;
-    margin-bottom: 2em;
-    background-image: linear-gradient(to bottom right, #F27DFD, #08e5ff);
-    box-shadow: #08e5ff   1px 1px 10px ;       
-    border: 0px;
-    font-weight: bold;
-}
-
-#refreshButton {
-    background-image: linear-gradient(to bottom right, #F27DFD, #08e5ff);   
-    box-shadow: #08e5ff   1px 1px 10px ;        
-    border: 0px;
-    font-weight: bold;
-}
-#Especialidad{
-    margin-left: 100px;
-    margin-bottom: 100px;
+#past{
+    width: 500px;
     float: left;
 }
+#Presente{
+    width: 500px;
+    float: right;
+}
+#tetxtos{
+    justify-content: space-evenly;
+}
+br{
+    clear: both;
+}
+#design-cast {
+    position: relative;
+    overflow: hidden;
+    margin-left: 20px;
+    border: 1px solid black;
+    }
+    .member {
+        float:left;
+        margin: 5px 5px ;
+        margin-bottom: 45px;
+    }
+    .name {
+        position:absolute;
+        bottom:0px;
+    }
+    .member img {
+        width: 150px;
+        display: block;
+    }
 
-#textBox { 
-  margin-top: 60px;
-  margin-right: 25px;
-  height: 20px;
-  box-shadow: #0bd3d3  1px 1px 10px ;
-}
-#selected{
-    margin-top: 20px;
-    box-shadow: #0bd3d3  1px 1px 10px ;
-}
-#email{
-    width: 300px;   
-    height: 20px;
-    box-shadow: #0bd3d3  1px 1px 10px ;
-}
-
-.incorrectCaptcha {
-    color: #FF0000;
-}
-
-.correctCaptcha {
-    color: #7FFF00;
-}
