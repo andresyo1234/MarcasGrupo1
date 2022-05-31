@@ -1,0 +1,10 @@
+ .catalogo{
+     padding-top: 20px;
+ }
+ .catalogo .fila1{
+     float: right;
+     padding-right: 190px;
+ }
+ .catalogo .producto{
+    padding-left: 200px;
+}
