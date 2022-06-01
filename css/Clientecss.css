@@ -1,17 +1,83 @@
 
-.dudas{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-gap: 5px;
+.barra{
+    padding-top: 35px;
+    
+}
+.barra input{
+    border: solid #F27DFD;
+    border-radius:10px  ;
+    text-indent: 130px;
+}
+  
+.consejo h2{
+    color: #f27dfd;
+    text-shadow: #333 1px 2px 1px;
+}
+.consejo{
+    padding-top: 15px;
 }
 
-.dudas .dudas1 a{
+.dudas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dudas  a{
     text-decoration: none;
     display: block;
     color:#333;
 }
 
-.dudas .dudas1 a:hover{
+.dudas  a:hover{
     color: #f27dfd;
     text-shadow: #333 1px 1px 1px;
+}
+
+
+.dudas1{
+    margin-left: 200px;
+}
+
+
+.dudas2{
+    margin-right: 225px;
+}
+
+.widgets a{
+    text-decoration: none;
+    display: block;
+    color:#333;
+}
+.widgets a:hover{
+    color: #f27dfd;
+    text-shadow: #333 1px 1px 1px;
+}
+
+.widgets{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.w1{
+    border: 1px solid black;
+    width: 200px;
+    margin-bottom: 30px;
+    margin-left: 200px;
+    margin-top: 15px;
+}
+
+.w2{
+    border: 1px solid black;
+    width: 200px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.w3{
+    border: 1px solid black;
+    width: 200px;
+    margin-bottom: 30px;
+    margin-right: 200px;
+    margin-top: 15px;
 }
