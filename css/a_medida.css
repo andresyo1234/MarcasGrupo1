@@ -1,0 +1,65 @@
+h1{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.Seleccionar{
+   
+    margin-left: 10%;
+    text-align: left;
+   
+}
+
+.tronco{
+    background-color: white;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    font-family: 'Bebas Neue';
+    color: #333;
+    width: 80%;
+    align-self: center;  
+    z-index: -1; 
+}
+
+.foto{
+ 
+float: right;
+margin-right: 10%;
+margin-top: -53%;
+}
+
+#fotoderecha{
+
+    height: 390px;
+    width: 200px;
+   
+}
+
+.LadoDerecho{
+    margin-right: 11%;
+    margin-top: -17%;
+    float: right;
+    text-align: center;
+}
+
+.foto1{
+
+
+}
+
+
+
+.componentes{
+    width: 900px;
+    
+}
+
+.container-principal{
+     /*hacer fondo*/
+}
+
+
+
+
+
+
