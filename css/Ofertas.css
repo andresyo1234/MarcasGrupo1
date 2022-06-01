@@ -1,13 +1,49 @@
 #Opciones {
+width: 177px;
 
-    float: right;
-    margin-left: 50%;
-    margin-bottom: -3%;
+    
     
 }
 
-h4{
 
-   margin-top: -1%;
-   margin-left: 50%;
+
+#imagen1{
+    
+    height: 350px;
+    
 }
+#imagen2{
+    margin-left: 50%;
+    height: 700px;
+    margin-top: 2%;
+}
+
+
+
+#imagen3{
+    margin-top: -60%;
+    margin-right: 488px;
+    height: 350px;
+    margin-bottom: 1.1%;
+
+}
+
+.miparte {
+
+  
+    align-items: center;
+    margin-left: 715px;
+    width: 1000px;
+
+}
+
+.top{
+    align-self: center;
+    align-items: center;
+
+    
+    width: 500px;
+}
+
+
+
