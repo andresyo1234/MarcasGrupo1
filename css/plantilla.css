@@ -21,8 +21,7 @@ body{
     font-family: 'Bebas Neue';
     color: #333;
     width: 60%;
-    align-self: center;  
-    z-index: -1; 
+    align-self: center;   
 }
 
 /*** CSS de la cabecera ***/
