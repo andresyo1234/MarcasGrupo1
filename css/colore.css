@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.logo{
+    display: flex;
+    align-items: center;
+    padding-left: 600px;
+    position: absolute;
+    top: 20px;
+    left: 130px;
+}
+
+#captchaBackground {
+    border-radius: 50px;
+    height: 150px;
+    width: 350px;
+    background-color:   #96b0dc;
+
+    color:black
+}
+
+
+.Letras{
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+
+}
+
+.center {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    align-items: center;
+}
+
+#submitButton {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    
+    border: 0px;
+    font-weight: bold;
+}
+
+#refreshButton {
+    
+    border: 0px;
+    font-weight: bold;
+}
+
+#textBox { 
+  margin-top: 60px;
+  margin-right: 30px;
+  height: 15px;
+  width: 110px;
+}
+
+
+.incorrectCaptcha {
+    color: #FF0000;
+}
+
+.correctCaptcha {
+    color: #7FFF00;
+}
+
+.politica {
+    margin-top: 58%;
+}
+
+body {
+    background-image: url(../img/fondoCiudad.jpg);
+    background-size: cover;
+}
+
+/* .captcha {
+    margin-left: 22%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+} */
+
+.form {
+    border-radius: 50px;
+    margin: 100px auto 10px;
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-bottom: 1%;
+}
+
+fieldset {
+    border-radius: 120px;
+    border: 10px hidden rgb(204,205,253);
+    box-shadow: 0px 0px 1000px rgb(100,232,186), 0px 0px 1000px rgb(100,232,186);
+    background-color: rgb(204,205,253);
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+hr {
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 8px rgb(157, 77, 255), 0px 0px 14px rgb(157, 77, 255);
+}
+
+.subtitulo {
+    text-align: left;
+    /* width: 300px; */
+    /* padding: 25px; */
+    /* margin: 30px; */
+    font-size: 20px;
+    /* float: left; */
+}
+
+.hiperenlace {
+    margin-top: 4%;
+    margin-bottom: 1%;
+}
+
+label {
+    display: block;
+    margin-top: 8%;
+    margin-bottom: auto;
+    margin-left: 1%;
+    color: rgb(29, 38, 155);
+    font-size: 14px;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.input {
+    
+    outline: none;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border: 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    color: gray;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: semibold;
+    line-height: inherit;
+    transition: 0.3s ease;
+}
+
+
+
+.texto_boton {
+    color: white;
+    text-decoration:none;
+}
+
+.texto_google {
+    margin-bottom: 5%;
+    margin-left: 0%;
+}
+
+.logo_google {
+    width: 40px;
+    height: auto;
+
+}
+
+.entrar_google {
+    margin-left: 22%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    border: 0;
+    border-radius: 10px;
+    padding: 12px 20px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: rgb(157, 77, 255);
+    box-shadow: 0px 0px 8px rgb(157, 77, 255), 0px 0px 14px rgb(157, 77, 255);
+}
+
+/* .captcha_text {
+    margin-bottom: 5%;
+} */
+
+.enviar {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    border: 0;
+    border-radius: 10px;
+    padding: 12px 20px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: rgb(157, 77, 255);
+    box-shadow: 0px 0px 8px rgb(157, 77, 255), 0px 0px 14px rgb(157, 77, 255);
+}
+
+.crear_usuario {
+    margin-left: 30%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+}
+
+.eres_nuevo {
+    margin-left: 7%;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+.boton {
+    width: 200px;
+    height: 200px;
+}
+
+
+/*** CCSS del footer ***/
+.footer{
+    width: 100%;
+    background-color: #333;
+    box-shadow: #0bd3d3 0px 0px 200px ;
+    margin-top: auto;
+    opacity: 90%;
+    border-top: 3px solid black;
+}
+.footer .grupo1{
+    width: 100%;
+    max-width: 1200px;
+    margin:auto;
+    display: grid;
+    grid-template-columns:repeat(5,1fr);
+    grid-gap:50px;
+    padding: 45px 0;
+}
+.footer .grupo1 .box{
+    display: block;  
+}
+.footer .grupo1 .box h5{
+    font-family: "PriceDown";
+    color: #fffe9f;
+    text-shadow: black 1px 2px 1px;
+    font-size: 20px;
+  
+}
+.footer .grupo1 .box p {
+    color: white;
+    margin-bottom: 10px;
+}
+.footer .grupo1 .box a{
+    display: block;
+    text-decoration: none; 
+    color: white;
+    text-shadow: #F27DFD 1px 1px 1px;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.footer .grupo1 .box a:hover{
+    color:#0bd3d3;
+    text-shadow: #F27DFD 1px 1px 1px;
+}
+.footer .grupo2{
+    background-color: #333;
+    padding:15px 10px;
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif, 'Arial Narrow', Arial, sans-serif;
+}
+/*** Para que el footer sea responsive ***/
+@media screen and (max-width:800px){
+    .footer .grupo1{
+        width: 90%;
+        grid-template-columns:repeat(1,1fr);
+        grid-gap:30px;
+        padding: 35px 0;
+    }
+}
+
+hr{
+    width: 50%;
+}
