@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+#captchaBackground {
+
+    height: 150px;
+    width: 400px;
+    background-color:   #96b0dc;
+
+    color:black
+}
+
+
+.Letras{
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+
+}
+
+.center {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    align-items: center;
+}
+
+#submitButton {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    background-color: #08e5ff;
+    border: 0px;
+    font-weight: bold;
+}
+
+#refreshButton {
+    background-color: #08e5ff;
+    border: 0px;
+    font-weight: bold;
+}
+
+#textBox { 
+  margin-top: 60px;
+  margin-right: 25px;
+  height: 20px;
+}
+
+
+.incorrectCaptcha {
+    color: #FF0000;
+}
+
+.correctCaptcha {
+    color: #7FFF00;
+}
