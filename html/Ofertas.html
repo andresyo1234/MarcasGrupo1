@@ -1,26 +1,36 @@
 <!DOCTYPE html>
-<html lang="esp">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/plantilla.css">
-    <link rel="stylesheet" href="../css/carrito.css">
-    
-    
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    
-    <!---------------------  para la barra de busqueda ----------------->
-    <script src="https://kit.fontawesome.com/712575d4a5.js" crossorigin="anonymous"></script>
-    
-    <title>ViceHardware - Carrito</title>
-</head>
+<html>
 
-<body>
-
-<!---------------------  Cabecera  -----------------> 
+<link rel="stylesheet" href="../css/Ofertas.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/plantilla.css">
+        <link rel="stylesheet" href="../css/pagInicio.css">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+           
+            <script src="https://kit.fontawesome.com/712575d4a5.js" crossorigin="anonymous"></script>
     
-<header>
+    <title>ViceHardware - Ofertas</title>
+
+    <style>.contenido{
+            margin-bottom: 100px;
+            }
+            
+            .busqeda{
+                margin-left: 30px;
+                margin-top: 30px;
+            }</style>
+
+    </head>
+    
+    <body>
+
+   <!---------------------  Cabecera  -----------------> 
+    
+   <header>
     <div class="logo">
         <a href="../html/pagInicio.html"><img src="../img/viceHardwareLogo.png" height="80px" alt="logo"></a>
         <div class=" logo slogan">
@@ -68,13 +78,13 @@
                 </ul>
             </li>
             <li>
-                <a href="../html/zada.html">Pc a tu gusto</a>                   
+                <a href="../html/pcMedida.html">Pc a tu gusto</a>                   
             </li>
             <li>
                 <a href="#">¿Necesitas Ayuda?</a>
                 <ul class="menu-vertical">
                     <li><a href="../html/Clientehtml.html">Atencion al Cliente</a></li>
-                    <li><a href="#">Devoluciones</a></li>
+                    <li><a href="../html/Devoluciones.html">Devoluciones</a></li>
                 </ul>
             </li>
 
@@ -83,68 +93,44 @@
 </header>
 
 <!---------------------  Contenido de la pagina  ----------------->
+        
 
-    <div class="tronco">
-        <div class="compra">
-            <div class="cesta">
-                <div class="articulo1">
-                    <a><img src="../img/catalogos/prod1.png"></a>
-                </div>
-                <div class="articulo2">
-                    <a><img src="../img/catalogos/prod2.png"></a>
-                </div>
-                <div class="articulo3">
-                    <a><img src="../img/catalogos/prod3.png"></a>
-                </div>
-            </div>
-    
-            <div class="resumen">
-                    <table>
-                        <tr>
-                            <th>Resumen de compra</th>
-                        </tr>
-                        <tr>
-                            <td>Artículo 1 (x1)</td>
-                            <td>83,99</td>
-                        </tr>
-                        <tr>
-                            <td >Artículo 2 (x1)</td>
-                            <td>234,99</td>
-                        </tr>
-                        <tr>
-                            <td >Artículo 3 (x1)</td>
-                            <td>889,89</td>
-                        </tr>
-                        <tr>
-                            <td>Subtotal</td>
-                            <td>955,01</td>
-                        </tr>
-                        <tr>
-                            <td>Gastos de envío</td>
-                            <td>00,00</td>
-                        </tr>
-                        <tr>
-                            <td>IVA 21%</td>
-                            <td>253,86</td>
-                        </tr>
-                        <tr>
-                            <td>Total</td>
-                            <td>1208,87</td>
-                        </tr>
-                    </table>
-            </div>
-        </div>
-        <hr> <br> <br>
-        <div class="sugerencias">
-            <a><img src="../img/catalogos/otrosUsuarios.png"></a>
-        </div>
-        <div class="fpagos">
-            <a><img src="../img/catalogos/formasPago.png"></a>
-        </div>
+<div class="tronco">
+    <div class="contenido">
+        
+        <div class ="top">
+            <hr >
+            
+                                    <input  class="busqeda" type="text" placeholder="Buscar...">
+                            
+                                    <h2>OFERTAS FLASH</h2>
+            
+                <select id="Opciones">
+                        <option value="Relevancia">Relevancia</option>
+                        <option value="Precio">Precio</option>
+                        <option value="Orden Alfabetico">Orden Alfabetico</option>
 
+                </select>
+                
+
+            <hr >
+        </div>
+        <div id="imgs">
+
+        <a href="../img/catalogos/grafica.png">
+                        <img id="imagen1" src="../img/catalogos/grafica.png" onMouseOut="imageswap(this);" onMouseOver="imageswap(this);">
+                    
+                            </a>
+                            <img id="imagen3" src="../img/catalogos/catalogo3.2.png">
+                            <img id="imagen2" src="../img/catalogos/maqueda_oferta.png ">
+
+        </div>
     </div>
-    
- 
+                
+                  
+                    
+
+</div>
 
 <!---------------------  Footer  ----------------->
 
@@ -173,7 +159,7 @@
              <h5>INFORMATE</h5>
              <il><a href="../html/QuienesSomos.html">Quienes somos</a></il>
              <il><a href="../html/Trabaja_Con_Nosotros.html">Trabaja con nosotros</a></il>
-             <il><a href="">Atencion al CLiente</a></il>
+             <il><a href="../html/Clientehtml.html">Atencion al CLiente</a></il>
             </ul>
         </div>
         <div class="box">               

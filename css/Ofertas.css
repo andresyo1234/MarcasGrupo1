@@ -1,0 +1,59 @@
+#Opciones {
+width: 177px;
+margin-top: -5%;
+float: right;
+    
+    
+}
+
+#imgs{
+
+
+    width: 80%;
+    margin-left: 10%;
+}
+
+
+
+#imagen1{
+    
+    display: flex;
+    height: 359px;
+    margin-left: 15%;
+    margin-bottom: -36.5%;
+    
+}
+
+
+#imagen3{
+   
+
+    margin-right: -22.23%;
+
+}
+
+.miparte {
+
+  
+    align-items: center;
+    margin-left: 715px;
+    width: 1000px;
+
+}
+
+.top{
+    align-self: center;
+    
+    text-align: start;
+    
+    width: 990PX;
+}
+h2{
+
+    width: 250px;
+    margin-left: 460px;
+    margin-top: -2%;
+}
+
+
+

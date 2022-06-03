@@ -1,17 +1,126 @@
 
-.dudas{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-gap: 5px;
+.barra{
+    padding-top: 35px;
+    
+}
+.barra input{
+    border: solid #333;
+    border-radius:10px  ;
+    text-indent: 130px;
 }
 
-.dudas .dudas1 a{
+.barra input:hover{
+    border-color:#f27dfd;
+    box-shadow: #333 1px 1px 1px;
+}
+
+.consejo h1{
+    color: #f27dfd;
+    text-shadow: #333 1px 2px 1px;
+}
+.consejo{
+    padding-top: 15px;
+}
+
+.dudas{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+.dudas  a{
     text-decoration: none;
     display: block;
     color:#333;
 }
 
-.dudas .dudas1 a:hover{
+.dudas  a:hover{
     color: #f27dfd;
     text-shadow: #333 1px 1px 1px;
 }
+
+
+.dudas1{
+    margin-left: 280px;
+}
+
+
+.dudas2{
+    margin-right: 290px;
+}
+
+.widgets a{
+    text-decoration: none;
+    display: block;
+    color:#333;
+}
+.widgets a:hover{
+    color: #f27dfd;
+    text-shadow: #333 1px 1px 1px;
+}
+
+.widgets{
+    margin-bottom: 100px;
+    margin-top: 50px;
+   
+}
+
+.wimagenes{
+    position: relative;
+    left: 150px;
+    width: 825px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wimagenes .wtextcorreo{
+    position: static;
+}
+
+.wtexto{
+    position: relative;
+    left: 150px;
+    width: 825px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wtextwhatsapp{
+    width: 175px;
+    padding-top: 15px;
+}
+
+.wtextcorreo{
+    width: 190px;
+    position: relative;
+    left: -15px;
+  
+}
+.wtexto .wtextcorreo{
+    position: relative;
+    left: 30px;
+}
+
+.wtextatt{
+    width: 150px;
+    position: relative;
+    right: -17px;
+}
+
+.wcontactos{
+    position: relative;
+    left: 150px;
+    width: 825px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wcontactos .wattcon{
+    position: relative ;
+    right: 25px;
+}
+
+

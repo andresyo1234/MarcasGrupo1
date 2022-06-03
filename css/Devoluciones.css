@@ -1,6 +1,72 @@
-/* NO TOCAR NADA, se puede joder la cabecera y el footer */
 
 
+h3{
+    padding-top: 40px;
+    text-align: center;
+}
+
+p{
+    padding-top: 20px;
+    text-align: center;
+    font-size: small;
+}
+li{
+    text-align: center;
+    font-size: small;
+
+}
+
+#formulario{
+
+    text-align: center;
+    
+    padding-left: 500px;
+    padding-right: 500px;
+    
+}
+input{
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#PlaceHolder{
+
+    padding-top: 1%;
+    padding-bottom: 5%;
+    
+    
+}
+input[type=button], input[type=submit] {
+    
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 8px;
+    width: 120px;
+    
+}
+input[type=button], input[type=reset] {
+    
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 8px;
+    width: 120px;
+
+    
+}
+
+
+
+/**------------------adri--------------------**/
 body{
     font-family: 'Bebas Neue', cursive;
     margin: 0;
@@ -16,16 +82,10 @@ body{
 }
 .tronco{
     background-color: white;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
-    font-family: 'Bebas Neue';
-    color: #333;
+    opacity: 70%;
     width: 60%;
     align-self: center;   
 }
-
-
-
 
 /*** CSS de la cabecera ***/
 header{
@@ -35,7 +95,6 @@ header{
     background-color: #333;
     align-items: center;
     padding: 10px;
-    border-bottom: 3px solid black;
 }
 .logo{
     display: flex;
@@ -57,7 +116,6 @@ nav{
     padding-right: 100px;
 }
 nav a{
-    font-size: 20px;
     padding-right: 50px;
     transition: all 0.4s linear;
     border-radius:3px;
@@ -113,90 +171,18 @@ nav a:hover{
 
 /*** CSS de la subcabecera ***/
 .subheader{
-    border-top: 2px solid black;
-    border-bottom: 3px solid black;
     box-shadow: #0bd3d3 0px 0px 30px ;
     margin-top: 7px;
     height: 10px;
 }
-
-/** menu desplegable **/
 .subnav{
     width: 100%;
     max-width: 1200px;
     margin:auto;
-    display: flex;
-	justify-content: space-around;
-    display: inline-block; 
-
+    display: grid;
+    grid-template-columns:repeat(3,400px);
+    grid-gap:90px;  
 }
-.menu-horizontal{
-	list-style: none;
-	display: flex;
-	justify-content: space-around;
-}
-.menu-horizontal > li > a{
-	display: block;
-	padding: 15px 20px;
-	text-decoration: none;
-}
-.menu-vertical{
-	position: absolute;
-	display: none;
-	list-style: none;
-	width: 200px;
-	background-color: #333;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
-    border-bottom: 2px solid black;
-    border-top: 2px solid black;
-    opacity: 95%;
-    z-index: 1;
-}
-.menu-horizontal li:hover .menu-vertical{
-	display: block;
-}
-.menu-vertical li:hover{
-	background-color: #333;
-}
-.menu-vertical li a{
-	display: block;
-    text-align: left;
-	text-decoration: none;
-	padding: 15px 15px 15px 20px;
-}
-.submenu{
-	position: absolute;
-    top: 10px;
-    left: 200px;
-	display: none;
-	list-style: none;
-	width: 200px;
-	background-color: #333;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
-    border-bottom: 2px solid black;
-    border-top: 2px solid black;
-    z-index: 2;
-
-}
-.menu-vertical li:hover .submenu{
-	display: block;
-}
-.submenu li:hover{
-	background-color: #333;
-}
-.submenu ul{
-    list-style: none;
-}
-.submenu li a{
-	display: block;
-    text-align: left;
-	text-decoration: none;
-	padding: 15px 15px 15px 20px;
-}
-
-
 
 
 @media (max-width:700px){
@@ -216,8 +202,6 @@ nav a:hover{
     background-color: #333;
     box-shadow: #0bd3d3 0px 0px 200px ;
     margin-top: auto;
-    opacity: 90%;
-    border-top: 3px solid black;
 }
 .footer .grupo1{
     width: 100%;
@@ -274,3 +258,4 @@ nav a:hover{
 hr{
     width: 50%;
 }
+

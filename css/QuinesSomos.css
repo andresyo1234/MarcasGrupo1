@@ -16,16 +16,13 @@ body{
 }
 .tronco{
     background-color: white;
+    width: 999px;
+    align-items: center;
+    align-self: center;
     border-left: 2px solid black;
     border-right: 2px solid black;
-    font-family: 'Bebas Neue';
-    color: #333;
-    width: 60%;
-    align-self: center;   
+    font-family: 'Bebas Neue';   
 }
-
-
-
 
 /*** CSS de la cabecera ***/
 header{
@@ -35,7 +32,6 @@ header{
     background-color: #333;
     align-items: center;
     padding: 10px;
-    border-bottom: 3px solid black;
 }
 .logo{
     display: flex;
@@ -110,6 +106,33 @@ nav a:hover{
 .buscar input:focus{
     width: 140px;
 }
+
+/*** CSS de la subcabecera ***/
+.subheader{
+    box-shadow: #0bd3d3 0px 0px 30px ;
+    margin-top: 7px;
+    height: 10px;
+}
+.subnav{
+    width: 100%;
+    max-width: 1200px;
+    margin:auto;
+    display: grid;
+    grid-template-columns:repeat(3,400px);
+    grid-gap:90px;  
+}
+
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 0px;
+    }
+}
+
 
 /*** CSS de la subcabecera ***/
 .subheader{
@@ -196,20 +219,6 @@ nav a:hover{
 	padding: 15px 15px 15px 20px;
 }
 
-
-
-
-@media (max-width:700px){
-    header{
-        flex-direction: column;
-    }
-
-    nav{
-        padding: 10px 0px;
-    }
-}
-
-
 /*** CCSS del footer ***/
 .footer{
     width: 100%;
@@ -217,7 +226,6 @@ nav a:hover{
     box-shadow: #0bd3d3 0px 0px 200px ;
     margin-top: auto;
     opacity: 90%;
-    border-top: 3px solid black;
 }
 .footer .grupo1{
     width: 100%;
@@ -274,3 +282,67 @@ nav a:hover{
 hr{
     width: 50%;
 }
+
+
+#video1{
+    position: relative;
+
+    
+}
+
+#play{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 200px;
+    max-width: 80px;
+    max-height: 80px;
+    z-index: 2;
+}
+#past{
+    width: 500px;
+    float: left;
+}
+#Presente{
+    width: 500px;
+    float: right;
+}
+#tetxtos{
+    justify-content: space-evenly;
+}
+br{
+    clear: both;
+}
+#design-cast {
+    position: relative;
+    overflow: hidden;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid black;
+    box-shadow: #0bd3d3 0px 0px 5px ;
+    margin-bottom: 50px;
+}
+.member {
+        float:left;
+        margin: 5px 5px ;
+        margin-bottom: 45px;
+        width: 150px;
+        height: 150px;  
+}
+.name {
+        position:relative;
+        text-align: center;
+        bottom:0px;
+}
+.member img {
+        height: 150px;
+        display: block;
+}
+
+
+#Mapa{
+    height: 250px;
+    float: right;
+    margin-bottom: 20PX;
+}
+
+

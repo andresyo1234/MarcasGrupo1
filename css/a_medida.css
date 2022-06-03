@@ -10,43 +10,36 @@ h1{
    
 }
 
-.tronco{
-    background-color: white;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
-    font-family: 'Bebas Neue';
-    color: #333;
-    width: 80%;
-    align-self: center;  
-}
 
 .foto{
- 
-float: right;
-margin-right: 10%;
-margin-top: -53%;
+    position: relative;
+    top: -150px;
+    float: right;
+    margin-right: 10%;
+    margin-top: -53%;
 }
 
 #fotoderecha{
-
+    position: relative;
+    top: 10px;
     height: 390px;
     width: 200px;
    
 }
 
 .LadoDerecho{
+    position: relative;
+    top: -80px;
     margin-right: 11%;
     margin-top: -17%;
     float: right;
     text-align: center;
 }
 
-.foto1{
-
-
+.LadoDerecho a{
+    text-decoration: none;
+    color:#333;
 }
-
-
 
 .componentes{
     width: 900px;
@@ -54,10 +47,8 @@ margin-top: -53%;
 }
 
 .container-principal{
-    margin-bottom: 200px;
+    margin-bottom: 150px;
 }
-
-
 
 
 
